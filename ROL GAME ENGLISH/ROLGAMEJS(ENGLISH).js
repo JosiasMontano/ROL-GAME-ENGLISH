@@ -242,7 +242,8 @@ function fightSnake(){
 }
 
 function fightStone(){
-  health-=0;
+  health--;
+  healthText.innerText=health;
   text.innerText="-1 of life, don't be a donkey, how are you going to fight with a stone?";
 }
 
